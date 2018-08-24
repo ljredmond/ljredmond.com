@@ -25,6 +25,9 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -36,21 +39,11 @@
         <h1 class="mt-5">Hi there!</h1>
         <p class="lead">You've reached the homepage of LJ Redmond, software engineer.</p>
         <p>This page is still under development. Come back soon!</p>
-        <p>In the meantime, you can reach me at <a id="emailLink"></a></p>
+        <p>In the meantime, <a href="contact.html">contact</a> me!</p>
       </div>
     </div>
   </div>
 
-  <script type="text/javascript">
-
-    var user = 'lj';
-    var domain = 'ljredmond.com';
-    var emailAddress = user + '@' + domain;
-
-    var element = document.getElementById('emailLink');
-
-    element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
-  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
           crossorigin="anonymous"></script>
